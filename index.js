@@ -11,7 +11,7 @@ function obterUsuario(){
         setTimeout(function(){
             // return reject(new Error('ERROR DE VERDADE'))
 
-            return resolve({
+            return resolve({  
                 id: 1,
                 nome: 'thiago',
                 data: new Date()
@@ -43,7 +43,6 @@ function obterEndereco(idUsuario, callback){
     }, 2000);
 
 }
-
 //primero passo, add async _> automaticamente ela retorna uma Promise
 main()
 async function main(){
